@@ -1,6 +1,3 @@
-let angulo = 0;
-let angleStep = 0.01;
-
 function setup() {
   createCanvas(512, 512);
   background(0);
@@ -8,7 +5,7 @@ function setup() {
 
 function draw() {
   // Generar tono de gris aleatorio
-  let grayscale = random(250);
+  let grayscale = random(110);
   
   // Lineas aleatorias
   let x1 = noise(angulo) * width;
