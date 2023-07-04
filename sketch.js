@@ -1,3 +1,6 @@
+let angulo = 0;
+let angleStep = 0.006;
+
 function setup() {
   createCanvas(512, 512);
   background(0);
